@@ -1,0 +1,139 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background: #1b2838;
+}
+h1 {
+	font-size: 20px;
+	line-height: 23px;
+	color: #5aa9d6;
+	font-weight: normal;
+	margin-bottom: 10px;
+	clear: both;
+	display: inline-block;
+}
+
+.area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.inarea {
+	display: flex;
+	justify-content: center;
+	height: 95%;
+	width: 100%;
+}
+a {
+	color: #ebebeb;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color: #66C0F4;
+}
+#result {
+	width: 40%;
+	max-width: 630px;
+	height: 93%;
+	margin-top: 1%;
+	background: url(https://steamcommunity-a.akamaihd.net/public/images/groups/content_footer_fade.png?v=1) bottom right no-repeat, url(https://steamcommunity-a.akamaihd.net/public/images/groups/group_content_topbackground.png?v=1) 0px 0px no-repeat, url(https://steamcommunity-a.akamaihd.net/public/images/groups/content_header_rule.png?v=1) -4px -6px no-repeat;
+	color: #acb2b8;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	padding: 10px;
+	float: right;
+	font-size: 14px;
+	overflow-y: auto;
+}
+#result img {
+	max-width: 630px;
+}
+#result::-webkit-scrollbar{
+	opacity: 0;
+}
+.link {
+	font-size: 10px;
+	color: #7e8391;
+	padding: 4px;
+	top: -1px;
+}
+.emoji {
+	vertical-align: text-bottom;
+	height: 18px;
+	width: 18px;
+}
+.strike {
+	text-decoration: line-through;
+}
+.spoiler {
+	color: #000000;
+    background-color: #000000;
+    padding: 0px 8px;
+}
+.spoiler:hover {
+	color: #fff;
+}
+textarea {
+	background: url( 'https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/ig/content_topbackground_wide.png?v=1' ) 50% -10px no-repeat, rgba( 0, 0, 0, 0.2 );
+	width: 40%;
+	height: 93%;
+	margin-top: 1%;
+	margin-bottom: 10px;
+	margin-right: 1%;
+	resize: none;
+	border: 1px solid #000;
+	color: #c6d4df;
+	box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 );
+	border-radius: 3px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	padding: 10px;
+	float: right;
+	font-size: 14px;
+}
+svg {
+	height: 40px;
+	margin-right: 20px;
+}
+button {
+	background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 30px;
+	border-radius: 2px;
+	display: block;
+	border: none;
+	color: #D2E885;
+}
+button:hover {
+	background: linear-gradient( to bottom, #a1bf07 5%, #80a006 95%);
+	color: white;
+}
+.btn {
+	margin-left: 75%;
+}
+#export {
+	margin-right: 1%;
+}
+.footer {
+	height: 50px;
+	text-align: left;
+	font-size: 12px;
+	position: absolute;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	bottom: 0px;
+	color: #8F98A0;
+	background-color: black;
+}
